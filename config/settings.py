@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-1d!!(a42n-pc15uoe@#7v&8nsqddn%jf9m!q_#ofmorzkwsyc5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['back.legacy-ex.com']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['back.legacy-ex.com']
+# ALLOWED_HOSTS = []
 
 
 
@@ -161,6 +161,6 @@ STATIC_URL = "static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 MEDIA_URL = "media/"
-# MEDIA_ROOT = "/home/legacyex/back.legacy-ex.com/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_ROOT = "/home/legacyex/back.legacy-ex.com/media/"
+# MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
